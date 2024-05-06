@@ -50,7 +50,7 @@ class CurrencyConverter:
         except ValueError:
             self.result_label.config(text='Please enter a valid number!')
         except Exception:
-            self.result_label.config(text='Error occured!')
+            self.result_label.config(text='Error occured!') # THB to RUB is not working
 
 
 if __name__ == '__main__':
